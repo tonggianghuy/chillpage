@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chill. Television</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <!--logo-->
+            <img class="logo" src="img/logonf2.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse ml-4" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" style="font-size:18px">
+                <li class="nav-item">
+                    <a class="nav-link" href="#poster">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trailer">Trailer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#plot">Plot</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#new">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                
+                </ul>
+                <div class="input-group mr-5" style="width:300px">
+                        <input type="text" class="form-control" placeholder="title, gander, ..." >
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search" style="color: white"></i></button>
+                        </div>
+                      </div>
+                <button type="button " class="btn btn-danger my-2 my-sm-0">Join Us</button>
+            </div>
+        </nav>
+
+    <header class="container-fluid" style="padding:0px">
+            <div class="card bg-dark text-white border-0" id="poster">
+                <div>
+                    <img class="imggg card-img" src="img/header2.jpeg" alt="Card image">
+                </div>
+            </div>
+            <div class="card bg-dark text-white border-0"  id="trailer">
+                <div>
+                    <img class="imggg card-img" src="img/cre.jpg" alt="Card image">
+                </div>
+            </div>
+            <!-- <div class="cardimg text-left card-img-overlay">
+                <h5 class="card-title"></h5>
+                <p class="card-text">Welcome to the whole new level of streaming movies brought to you from Mars</p>
+                <button type="button" class="btn btn-outline-light">Chill with us</button>
+            </div> -->
+    </header>
+       <!--Hasan Featured section-->
+    <section class="container-fluid" style="padding:0px;line-height: 0;">
+        <div class="section-video my-0 border-0">
+                <div>
+                    <video loop muted autoplay>
+                    <source src="img/haiphuong.mp4" type="video/mp4">
+                    </video>
+                    
+                    </div>
+        </div>
+        <div class="card bg-dark text-white border-0 mt-0" id="plot">
+            <div>
+                <img class="imggg card-img" src="img/story.jpg" alt="Card image">
+            </div>
+        </div>
+        <!--End of Hasan Featured Section-->
+
+    <!-- <body1 class="container-fluid">
+        <div class="container text-dark">
+                <h1 class="display-3 custom-h1"> Newest released movie</h1>
+                <h2 class="display-4 custom-h1">Catchy subtitle</h2>
+                
+        </div>
+    </body1> -->
+    <div class="bgcl dropdown mt-2 text-center" id="new">
+        <button class="bgcl mgenre btn text-light border-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Genre
+        </button>
+        <div class="mgenre dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <div class="row">
+          <div class="bgcl col-4">
+            <button type="button" class="btn btn-outline-light col-12 border-0">Action</button>
+            <button type="button" class="btn btn-outline-light col-12 border-0">Crime</button>
+            <button type="button" class="btn btn-outline-light col-12 border-0">Drama</button>
+          </div>
+          <div class="bgcl col-4">
+            <button type="button" class="btn btn-outline-light col-12 border-0">Romance</button>
+            <button type="button" class="btn btn-outline-light col-12 border-0">Horror</button>
+            <button type="button" class="btn btn-outline-light col-12 border-0">Comedies</button>
+
+        </div>  
+          <div class="bgcl col-4">
+            <button type="button" class="btn btn-outline-light col-12 border-0">Anime</button>
+            <button type="button" class="btn btn-outline-light col-12 border-0">Sci-fi</button>
+            <button type="button" class="btn btn-outline-light col-12 border-0">Documentaries</button>
+          </div> 
+        </div>
+    </div>
+</div>
+        <div class="row d-flex justify-content-around m-0 p-0">
+            <div class="col-sm-6 col-lg-3 pt-3">
+                <div class="card border-0" style="width: 100%; height: 680px;">
+                    <img class="card-img-top" style="width: 100%; height: 600px" src="img/cre1.jpg" alt="Card image cap">
+                    <div class="container bgcl text-light card-body">
+                        <div class="d-flex justify-content-between container-fluid mb-3">
+                            <button type="button" class="btn btn-secondary rounded-0 col-sm-6">Trailer</button>
+                            <button type="button" class="btn btn btn-danger rounded-0 col-sm-6">Chill now</button>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 pt-3">
+                <div class="card border-0" style="width: 100%; height: 680px;">
+                    <img class="card-img-top" style="width: 100%; height: 600px" src="img/cre2.jpg" alt="Card image cap">
+                    <div class="container bgcl text-light card-body">
+                            <div class="d-flex justify-content-between container-fluid mb-3">
+                                    <button type="button" class="btn btn-secondary rounded-0 col-sm-6">Trailer</button>
+                                    <button type="button" class="btn btn btn-danger rounded-0 col-sm-6">Chill now</button>
+                                </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 pt-3">
+                <div class="card border-0" style="width: 100%; height: 680px;">
+                    <img class="card-img-top" style="width: 100%; height: 600px" src="img/cre3.jpg" alt="Card image cap">
+                    <div class="container bgcl text-light card-body">
+                            <div class="d-flex justify-content-between container-fluid mb-3">
+                                    <button type="button" class="btn btn-secondary rounded-0 col-sm-6">Trailer</button>
+                                    <button type="button" class="btn btn btn-danger rounded-0 col-sm-6">Chill now</button>
+                                </div>
+        
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 pt-3">
+                <div class="card border-0" style="width: 100%; height: 680px;">
+                    <img class="card-img-top" style="width: 100%; height: 600px" src="img/cre4.jpg" alt="Card image cap">
+                    <div class="container bgcl text-light card-body">
+                            <div class="d-flex justify-center container-fluid mb-3">
+                                    <button type="button" class="btn btn-secondary rounded-0 col-sm-6">Trailer</button>
+                                    <button type="button" class="btn btn btn-danger rounded-0 col-sm-6">Chill now</button>
+                                </div>
+        
+
+                    </div>
+                  </div>
+            </div>
+        
+        </div>
+    </section>
+
+<!--Hasan Footer Section-->
+    <footer class="container-fluid pt-3" id="about">
+        <div class="container footer-container">
+                <div class="row social-icons">
+                    <div class="social-item"><i class="fab fa-facebook-square fa-2x"></i></div>
+                    <div class="social-item"><i class="fab fa-instagram fa-2x"></i></div>
+                    <div class="social-item"><i class="fab fa-youtube fa-2x"></i></div>
+                    <div class="social-item"><i class="fab fa-twitter fa-2x"></i></div>
+                </div>
+                <div class="row footer-text-container custom-footer-text ">
+                    <div class="col-md-4 border-left-1">
+                        <ul>
+                            <li>About us</li>
+                            <li>About us</li>
+                            <li>About us</li>
+                            <li>About us</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 border-left-1">
+                        <ul>
+                            <li>About us</li>
+                            <li>About us</li>
+                            <li>About us</li>
+                            <li>About us</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="border-left-1">
+                            <li>News</li>
+                            <li>About us</li>
+                            <li>About us</li>
+                            <li>About us</li>
+                            
+                        </ul>
+                        
+                    </div>
+            
+                    <div class="col-md-4">
+                        <img src="img/logonf2.png" class="oscar-badge">
+
+                        </div>
+                </div>
+                <p class="copyright">
+                    <i class="far fa-copyright"></i>ChillTv Productions</p>
+
+                
+            </div>
+
+    </footer>
+    <!--End of Hasan footer section-->
+</body>
+</html>

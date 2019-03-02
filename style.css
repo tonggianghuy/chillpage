@@ -1,0 +1,182 @@
+body{
+    height: 100%;
+    background-color:rgb(29, 29, 29);
+}
+nav{
+    background-color: rgba(29, 29, 29, 0.8);
+}
+nav li:hover{
+    text-decoration: underline;
+    font-size:18px;
+}
+.signchill{
+    background-color:rgb(29, 29, 29);
+}
+.logo{
+    width: 100px;
+}
+header{
+    background-color:rgb(29, 29, 29);
+}
+section{
+    background-color:rgb(29, 29, 29);
+}
+footer{
+    display:flex !important;
+    /* background-color: black; */
+    color: white;
+    align-items:flex-end;
+    /* justify-content:flex-end; */
+    background-color:rgb(29, 29, 29);
+}
+
+}
+.container-fluid{
+    padding: 0;
+}
+.footer-container {
+    
+    padding: 0px 51px 0px 51px;
+    margin:0px 98px 0px 98px;
+}
+
+.social-icons {
+    display:flex;
+    width:200px;
+}
+
+.social-item {
+margin:7px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-video{
+
+}
+
+.copyright {
+    font-size:14px;
+    text-align:left;
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+  
+}
+
+.dropdown-menu {background-color: rgb(29, 29, 29) !important;}
+.mgenre {width: 60%}
+
+video {
+    height:100%;
+    width:100%;
+}
+.top-image {
+    background-image: url("img/chillmovie.jpg");
+    background-size:cover; 
+    height: 500px; 
+    width: 100%; 
+    background-position:center; 
+}
+
+.featured-movie-text {
+    text-align:center;
+    color:white;
+    font-size:100px;
+}
+.custom-h1 {
+    position: relative;
+    top: 150px;
+    right: 50px;
+}
+
+.custom-footer-text {
+    margin-left:-64px !important;
+    margin-top:10px;
+    line-height:2;
+
+}
+
+@media (min-width: 768px){
+.col-md-4 {
+max-width:25% !important;
+}
+}
+
+.oscar-badge {
+    width:200px;
+}
+
+.footer-badges {
+    display:flex;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    /* padding: 20px; */
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /* fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+} */
+
+/* .fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+} */
+
+/* @media (max-width: 767px) { */
+    .firstsection{
+    }
+    /* } */
+
+    /* .fullscreen-bg__video {
+        display: none;
+    } */
+
